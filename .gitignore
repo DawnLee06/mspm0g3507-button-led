@@ -1,0 +1,38 @@
+# Keil MDK 编译产物
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.htm
+*.lst
+*.dep
+*.lnp
+*.iex
+*.sct.bak
+*.build_log.htm
+*.uvguix.*
+JLinkLog.txt
+Event.dot
+RTE/
+
+# TI SDK / SysConfig 生成物（按需保留）
+source/ti/
+source/third_party/
+*.syscfg.bak
+syscfg/
+
+# 系统与编辑器
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*~
+*.bak
+*.tmp
